@@ -13,6 +13,11 @@ const biciCorsa = [
     { nome: "olmo", peso: 26 }
 ]
 
+let biciLeggera = null;
+for (let i = 0; i < biciCorsa.length; i++) {
+
+
+}
 
 
 
