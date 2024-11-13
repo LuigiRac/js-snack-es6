@@ -15,3 +15,26 @@ let squadreCalcio = [
     { nome: "Roma", punti: 0, falli: 0 },
 ]
 
+
+function casualNumber() {
+    const randomNumber = Math.floor(Math.random() * 20) + 1;
+    return randomNumber;
+}
+// console.log(casualNumber());
+
+
+for (let i = 0; i < squadreCalcio.length; i++) {
+    squadreCalcio[i].punti = casualNumber();
+    squadreCalcio[i].falli = casualNumber();
+}
+
+// for (let key in squadreCalcio) {
+//     console.log(squadreCalcio[key]);
+// }
+
+let nomiFalli = [];
+for (let i = 0; i < squadreCalcio.length; i++) {
+    nomiFalli.push({ nome: squadreCalcio[i].nome, falli: squadreCalcio[i].falli });
+
+}
+console.log(nomiFalli);
