@@ -5,7 +5,13 @@ console.clear();
 Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
 Stampare a schermo la bici con peso minore. */
 
-
+const biciCorsa = [
+    { nome: "bianchi", peso: 15 },
+    { nome: "cinelli", peso: 17.5 },
+    { nome: "atala", peso: 20 },
+    { nome: "casati", peso: 12 },
+    { nome: "olmo", peso: 26 }
+]
 
 
 
